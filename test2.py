@@ -43,7 +43,7 @@ def main():
         print(f"install the chrome driver(ver: {chrome_ver})")
         chromedriver_autoinstaller.install(True)
 
-    chrome_ver = '119'
+    chrome_ver = '121'
     # 옵션 - 셀레니움
     service = Service(f'./{chrome_ver}/chromedriver.exe')
 
